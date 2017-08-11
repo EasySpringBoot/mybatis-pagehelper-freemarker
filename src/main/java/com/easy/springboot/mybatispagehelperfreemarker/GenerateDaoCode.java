@@ -29,7 +29,7 @@ public class GenerateDaoCode {
         myBatisGenerator.generate(null);
     }
 
-    public static void main(String[] args) throws IOException, XMLParserException, InvalidConfigurationException, SQLException, InterruptedException {
-        doGenerate();
-    }
+    //public static void main(String[] args) throws IOException, XMLParserException, InvalidConfigurationException, SQLException, InterruptedException {
+    //    doGenerate();
+    //}
 }

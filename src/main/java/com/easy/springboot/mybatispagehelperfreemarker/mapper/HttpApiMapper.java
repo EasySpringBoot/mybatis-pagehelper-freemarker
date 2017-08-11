@@ -1,6 +1,8 @@
 package com.easy.springboot.mybatispagehelperfreemarker.mapper;
 
 import com.easy.springboot.mybatispagehelperfreemarker.model.HttpApi;
+import org.apache.ibatis.annotations.ResultMap;
+import org.apache.ibatis.annotations.ResultType;
 
 public interface HttpApiMapper {
     /**

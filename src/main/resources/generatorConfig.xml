@@ -37,10 +37,10 @@
             <property name="trimStrings" value="true"/>
         </javaModelGenerator>
 
-        <sqlMapGenerator targetPackage="com.easy.springboot.mybatispagehelperfreemarker.sqlmap"
-                         targetProject=".">
-            <property name="enableSubPackages" value="true"/>
-        </sqlMapGenerator>
+        <!--<sqlMapGenerator targetPackage="com.easy.springboot.mybatispagehelperfreemarker.sqlmap"-->
+                         <!--targetProject=".">-->
+            <!--<property name="enableSubPackages" value="true"/>-->
+        <!--</sqlMapGenerator>-->
 
         <javaClientGenerator type="XMLMAPPER"
                              targetPackage="com.easy.springboot.mybatispagehelperfreemarker.mapper"
